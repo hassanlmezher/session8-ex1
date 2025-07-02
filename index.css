@@ -9,6 +9,7 @@
     --blue: #0866FF;
     --green: #36A420;
     --white: white;
+    --black: rgb(145, 145, 145);
 }
 
 .sectionmain{
@@ -41,4 +42,26 @@
     width: 500px;
     margin-right:  -223px;
     font-size: 26px;
+}
+
+.interdiv{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    width: 65%;
+    height: 50%;
+    margin-left: -50px;
+    border-radius: 10px;
+    box-shadow: var(--black)  2px 2px 5px 2px;
+}
+
+.div2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
