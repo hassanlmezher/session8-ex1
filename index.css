@@ -87,6 +87,13 @@
     border: none;
 }
 
+.input2:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
 .p11{
     color: var(--blue);
     font-size: 14px;
@@ -94,6 +101,11 @@
 
 .p12{
     color: rgb(219, 218, 218);
+}
+.p11:hover{
+    color: red;
+    transform: matrix(1.05);
+    transition: all 0.3s ease;
 }
 
 .button1{
@@ -105,6 +117,20 @@
     border-radius: 10px;
     font-size: 16px;
     font-weight: 900;
+    
+}
+.button1:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.strong1:hover{
+    color: var(--green);
+    font-size: 18px;
+    transform: matrix3d(1.05);
+    transition: all 0.3s ease;
 }
 
 .lastp{
@@ -135,14 +161,24 @@
     .div2{
         margin-bottom: -150px;
         margin-right: -200px;
+        
+    }
+
+    .div1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .p1{
-        padding-left: 60px;
+        width: 200px;
     }
+  
     .p2{
-        padding-left: 30px;
-        width: 400px;
+               
+        width: 360px;
     }
 
 }
