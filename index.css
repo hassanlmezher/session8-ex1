@@ -51,8 +51,8 @@
     justify-content: center;
     align-items: center;
     background-color: var(--white);
-    width: 60%;
-    height: 59%;
+    width: 399px;
+    height: 362px;
     margin-left: -110px;
     border-radius: 10px;
     box-shadow: var(--black)  0px 2px 5px;
@@ -76,8 +76,8 @@
     border-radius: 10px;
 }
 .input2{
-    width: 364px;
-    height: 48px;
+    width: 93%;
+    height: 13%;
     background-color: var(--blue);
     padding-inline-start: 0px 16px;
     color: var(--white);
@@ -99,8 +99,8 @@
 .button1{
     background-color: var(--green);
     color: var(--white);
-    width: 193px;
-    height: 48px;
+    width: 50%;
+    height: 15%;
     border: none;
     border-radius: 10px;
     font-size: 16px;
@@ -114,4 +114,29 @@
 }
 .strong1{
     padding-right: 5px;
+}
+
+@media(max-width: 1200px){
+    .p2{
+        font-size: 23px;
+        width: 380px;
+        margin-left: -120px;       
+    }
+}
+@media(max-width:1020px){
+    .sectionmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 85px;
+        align-items: center;
+    }
+
+    .div2{
+        margin-bottom: -150px;
+        margin-right: -200px;
+    }
+
+    
+
 }
