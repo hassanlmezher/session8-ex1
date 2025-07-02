@@ -137,6 +137,12 @@
         margin-right: -200px;
     }
 
-    
+    .p1{
+        padding-left: 60px;
+    }
+    .p2{
+        padding-left: 30px;
+        width: 400px;
+    }
 
 }
